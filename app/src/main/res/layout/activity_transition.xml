@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransitionActivity">
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="9"
+            >
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+
+                <ImageView
+
+                    android:id="@+id/ivTransition"
+                    android:layout_width="225sp"
+                    android:layout_height="300sp"
+                    android:layout_marginBottom="10sp"
+                    android:background="@drawable/frame11"
+                    >
+
+                </ImageView>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginBottom="5sp"
+                    >
+
+                    <Button
+                        android:id="@+id/btnOne"
+                        android:layout_width="12sp"
+                        android:layout_height="12sp"
+                        android:background="@drawable/circleon"
+                        />
+
+                    <Button
+                        android:id="@+id/btnTwo"
+                        android:layout_width="12sp"
+                        android:layout_height="12sp"
+                        android:background="@drawable/circleoff"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginRight="15sp"
+                        />
+
+                    <Button
+                        android:id="@+id/btnThree"
+                        android:layout_width="12sp"
+                        android:layout_height="12sp"
+                        android:background="@drawable/circleoff"
+                        />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+            >
+
+            <Button
+
+                android:id="@+id/btnTransition"
+                android:layout_width="315sp"
+                android:layout_height="43sp"
+                android:background="@drawable/backbotton"
+                android:text="Continuar"
+                android:textColor="@color/colorPrimary" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

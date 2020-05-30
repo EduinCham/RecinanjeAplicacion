@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "958196063479",
+    "firebase_url": "https://recicanje-9aec4.firebaseio.com",
+    "project_id": "recicanje-9aec4",
+    "storage_bucket": "recicanje-9aec4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958196063479:android:8879e620a0dee02f9207f2",
+        "android_client_info": {
+          "package_name": "com.guardianrutas.recicanje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958196063479-aq1ek7ssj3jsgg131c1gnhp7rh88iek1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.guardianrutas.recicanje",
+            "certificate_hash": "a522e933c14e0b39697e86ee5d8482d87e4ab994"
+          }
+        },
+        {
+          "client_id": "958196063479-drc4prq6hbl92s06ta8iim5g37ol5qhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8XTdejSGuDYkZn20mLDyTGcXOdJLUmlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958196063479-drc4prq6hbl92s06ta8iim5g37ol5qhq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

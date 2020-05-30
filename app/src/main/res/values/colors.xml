@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBorder">#6BA641</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorBorderButton">#099587</color>
+    <color name="colorBackgroundButton">#04A595</color>
+    <color name="colorPrimaryText">#618682</color>
+    <color name="colorOn">#04A595</color>
+    <color name="colorOff">#04403A</color>
+
+
+
+
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="90sp"
+            android:orientation="horizontal"
+
+            >
+
+            <Button
+
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="34sp"
+                android:background="@drawable/frame16"
+                />
+
+            <ImageView
+
+                android:layout_width="252sp"
+                android:layout_height="61sp"
+                android:background="@drawable/logotipo"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="34sp"
+
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+
+
+                android:id="@+id/superiorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorAccent"
+                >
+
+                <TextView
+
+
+                    android:id="@+id/txCategorias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16sp"
+                    android:layout_marginLeft="16sp"
+                    android:layout_marginTop="6sp"
+                    android:layout_marginBottom="8sp"
+                    />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+
+                android:id="@+id/cardRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/superiorText"
+                >
+
+
+                <androidx.recyclerview.widget.RecyclerView
+
+                    android:id="@+id/recyclerHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="36sp"
+                    android:layout_marginRight="36sp"
+                    >
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:orientation="vertical"
+                android:background="@color/colorPrimary"
+                android:gravity="bottom"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/cardRecycler"
+                >
+                
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/contenedor"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
